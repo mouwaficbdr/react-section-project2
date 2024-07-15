@@ -8,6 +8,7 @@ body{
   font-family: "Inter", sans-serif;
 }
 
+
 nav{
   background-color:#F55A5A ;
   color: white;
@@ -22,14 +23,82 @@ nav{
   align-items: center;
 }
 
-.nav--logo-div img{
-  margin-right: 10px;
-}
-
 .nav--logo-div p{
   font-size: 14.46px;
   font-weight: 500;
   line-height: 17.5px;
   letter-spacing: -0.075em;
+  margin-left: 10px;
+}
 
+.place{
+  display: flex;
+  margin-top: 35px;
+  padding: 0 40px;
+}
+
+.place-image{
+  margin-right: 15px;
+}
+
+.location{
+  display: flex;
+}
+
+.place-infos{
+  padding: 20px 10px;
+}
+
+.country{
+  display: flex;
+  margin-right: 12px;
+  align-items: center;
+}
+
+.country img{
+  margin-right: 5px;
+  width: 7px;
+  height: 9.55px;
+
+}
+
+.place--country-name{
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 12.39px;
+  letter-spacing: 0.17em;
+  color: #2B283A;
+}
+
+.location-link{
+  color: #918E9B;
+  font-size: 10.24px;
+  font-weight: 400;
+  line-height: 12.39px;
+
+}
+
+.title{
+  margin-top: 7px;
+  color:#2B283A;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.26px;
+
+}
+
+.duration{
+  margin-top: 11px;
+  font-size: 10.24px;
+  font-weight: 700;
+  line-height: 12.39px;
+  color:#2B283A;
+}
+
+.description{
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 15.36px;
+  color:#2B283A;
+  margin-top: 9px;
 }

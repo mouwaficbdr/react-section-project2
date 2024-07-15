@@ -5,7 +5,7 @@ export default function Location(props) {
   return (
     <section className="place">
       <img src={`/assets/${props.item.imageUrl}`} className="place-image" />
-      <div className="infos">
+      <div className="place-infos">
         <div className="location">
           <div className="country">
             <img src={locationIcon} />

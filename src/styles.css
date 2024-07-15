@@ -1,0 +1,35 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: "Inter", sans-serif;
+}
+
+nav{
+  background-color:#F55A5A ;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.nav--logo-div{
+  display: flex;
+  align-items: center;
+}
+
+.nav--logo-div img{
+  margin-right: 10px;
+}
+
+.nav--logo-div p{
+  font-size: 14.46px;
+  font-weight: 500;
+  line-height: 17.5px;
+  letter-spacing: -0.075em;
+
+}
